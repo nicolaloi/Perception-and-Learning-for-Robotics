@@ -1,0 +1,24 @@
+certifi==2020.6.20
+cloudpickle==1.6.0
+cycler==0.10.0
+Cython==0.29.21
+Django==2.2.17
+future==0.18.2
+gym==0.17.3
+#-e git+git@github.com:nanaimi/gym-unrealcv.git@542078734381f77341490f72eaca8b8ddbb10a2f#egg=gym_unrealcv
+image==1.5.33
+kiwisolver==1.1.0
+matplotlib==3.0.3
+mkl-fft==1.0.6
+mkl-random==1.0.1
+#numpy==1.18.5
+Pillow==7.2.0
+pyglet==1.5.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.4
+scipy==1.4.1
+six==1.15.0
+sqlparse==0.4.1
+#TBB==0.1
+UnrealCV==0.4.0

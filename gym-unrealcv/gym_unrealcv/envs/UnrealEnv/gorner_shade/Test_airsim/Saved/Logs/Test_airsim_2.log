@@ -1,0 +1,1225 @@
+﻿Log file open, 05/23/21 10:38:58
+LogPlatformFile: Using cached read wrapper
+LogInit:Display: RandInit(1461752836) SRandInit(1461752836).
+LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.022427
+LogFileManager:Warning: ReadFile failed: Count=0 Length=4096 Error=errno=21 (Is a directory) for file 
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit: Build: ++UE4+Release-4.16-CL-0
+LogInit: Engine Version: 4.16.3-0+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-0+++UE4+Release-4.16
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Apr 27 2021 12:29:45
+LogInit: Compiled with Clang: 3.9.1 (tags/RELEASE_391/rc2)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: /home/nicloi/app/gorner_shade/Test_airsim/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2021.05.23-10.38.58:362][  0]LogInit: Initializing SDL.
+[2021.05.23-10.38.58:362][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2021.05.23-10.38.58:386][  0]LogInit: Initialized SDL 2.0.4 revision: 10374 (hg-10374:dccf51aee79b with EpicExtensions) (compiled against 2.0.4)
+[2021.05.23-10.38.58:386][  0]LogInit: Display metrics:
+[2021.05.23-10.38.58:386][  0]LogInit:   PrimaryDisplayWidth: 1024
+[2021.05.23-10.38.58:386][  0]LogInit:   PrimaryDisplayHeight: 768
+[2021.05.23-10.38.58:386][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2021.05.23-10.38.58:386][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.05.23-10.38.58:386][  0]LogInit:   VirtualDisplayRect:
+[2021.05.23-10.38.58:386][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.05.23-10.38.58:386][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2021.05.23-10.38.58:386][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2021.05.23-10.38.58:386][  0]LogInit:   Number of monitors: 1
+[2021.05.23-10.38.58:386][  0]LogInit:     Monitor 0
+[2021.05.23-10.38.58:386][  0]LogInit:       Name: 0
+[2021.05.23-10.38.58:386][  0]LogInit:       ID: display0
+[2021.05.23-10.38.58:386][  0]LogInit:       NativeWidth: 1024
+[2021.05.23-10.38.58:386][  0]LogInit:       NativeHeight: 768
+[2021.05.23-10.38.58:386][  0]LogInit:       bIsPrimary: true
+[2021.05.23-10.38.58:386][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.05.23-10.38.58:386][  0]LogInit: Applying CVar settings loaded from the selected device profile: [LinuxNoEditor]
+[2021.05.23-10.38.58:391][  0]LogInit: Linux hardware info:
+[2021.05.23-10.38.58:391][  0]LogInit:  - we are the first instance of this executable
+[2021.05.23-10.38.58:391][  0]LogInit:  - this process' id (pid) is 7603, parent process' id (ppid) is 2778
+[2021.05.23-10.38.58:391][  0]LogInit:  - we are not running under debugger
+[2021.05.23-10.38.58:391][  0]LogInit:  - machine network name is 'gpu_node'
+[2021.05.23-10.38.58:391][  0]LogInit:  - user name is 'nicloi' (nicloi)
+[2021.05.23-10.38.58:391][  0]LogInit:  - we're logged in remotely
+[2021.05.23-10.38.58:391][  0]LogInit:  - we're running with rendering
+[2021.05.23-10.38.58:391][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 7 3700X 8-Core Processor             ' (signature: 0x870F10)
+[2021.05.23-10.38.58:391][  0]LogInit:  - Number of physical cores available for the process: 8
+[2021.05.23-10.38.58:392][  0]LogInit:  - Number of logical cores available for the process: 16
+[2021.05.23-10.38.58:392][  0]LogInit:  - Cache line size: 64
+[2021.05.23-10.38.58:392][  0]LogInit:  - Memory allocator used: binned2
+[2021.05.23-10.38.58:392][  0]LogLinux: Benchmarking clocks:
+[2021.05.23-10.38.58:392][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 42448057 (42448K, 42M) calls per second without zero deltas.
+[2021.05.23-10.38.58:392][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 42545078 (42545K, 43M) calls per second without zero deltas.
+[2021.05.23-10.38.58:392][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 42658307 (42658K, 43M) calls per second without zero deltas.
+[2021.05.23-10.38.58:392][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 166585988 (166586K, 167M) calls per second with 99.999844% zero deltas.
+[2021.05.23-10.38.58:392][  0]LogLinux: Selected clock_id 4 (CLOCK_MONOTONIC_RAW) since it is the fastest support clock without zero deltas.
+[2021.05.23-10.38.58:392][  0]LogInit: Linux-specific commandline switches:
+[2021.05.23-10.38.58:392][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2021.05.23-10.38.58:392][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.05.23-10.38.58:392][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.05.23-10.38.58:392][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.05.23-10.38.58:392][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.05.23-10.38.58:392][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.05.23-10.38.58:392][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.05.23-10.38.58:392][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16000 MB, 16384904 KB, 16778141696 bytes)
+[2021.05.23-10.38.58:393][  0]LogInit: Using OS detected language (en-US-POSIX).
+[2021.05.23-10.38.58:393][  0]LogInit: Using OS detected locale (en-US-POSIX).
+[2021.05.23-10.38.58:393][  0]LogTextLocalizationManager: No specific localization for 'en-US-POSIX' exists, so the 'en' localization will be used.
+[2021.05.23-10.38.58:435][  0]LogRHI: Initializing OpenGL RHI
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_RENDERER: TITAN Xp/PCIe/SSE2
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 450.119.03
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2021.05.23-10.38.58:435][  0]LogRHI: OpenGL Extensions:
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_base_instance
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_bindless_texture
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_blend_func_extended
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_buffer_storage
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_clear_texture
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_clip_control
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_color_buffer_float
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_conservative_depth
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_compute_shader
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_copy_buffer
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_copy_image
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_cull_distance
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_debug_output
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_depth_clamp
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_depth_texture
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_derivative_control
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_direct_state_access
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_draw_buffers
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_draw_indirect
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_draw_instanced
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_fragment_program
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_fragment_shader
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_framebuffer_object
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_geometry_shader4
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_get_program_binary
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_gl_spirv
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_gpu_shader5
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_half_float_pixel
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_half_float_vertex
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_imaging
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_indirect_parameters
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_instanced_arrays
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_internalformat_query
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_internalformat_query2
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_map_buffer_range
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_multi_bind
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_multisample
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_multitexture
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_occlusion_query
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_occlusion_query2
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_point_parameters
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_point_sprite
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_program_interface_query
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_provoking_vertex
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_query_buffer_object
+[2021.05.23-10.38.58:435][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_robustness
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sample_locations
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sample_shading
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sampler_objects
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_ballot
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_clock
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_group_vote
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_image_size
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_objects
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_precision
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_subroutine
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shading_language_100
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shading_language_include
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shading_language_packing
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_shadow
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sparse_buffer
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sparse_texture
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sparse_texture2
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_spirv_extensions
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_stencil_texturing
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_sync
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_tessellation_shader
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_barrier
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_compression
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_cube_map
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_env_add
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_env_combine
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_float
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_gather
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_multisample
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_query_levels
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_query_lod
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_rectangle
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_rg
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_stencil8
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_storage
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_swizzle
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_texture_view
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_timer_query
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_transform_feedback2
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_transform_feedback3
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_transpose_matrix
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_array_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_program
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_shader
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_viewport_array
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ARB_window_pos
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ATI_draw_buffers
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ATI_texture_float
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_S3_s3tc
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_texture_env_add
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_abgr
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_bgra
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_bindable_uniform
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_blend_color
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_blend_func_separate
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_blend_minmax
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_blend_subtract
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_Cg_shader
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_direct_state_access
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_draw_buffers2
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_draw_instanced
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_draw_range_elements
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_EGL_image_storage
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_fog_coord
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_framebuffer_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_geometry_shader4
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_gpu_shader4
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_multiview_texture_multisample
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_multiview_timer_query
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_packed_float
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_packed_pixels
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_point_parameters
+[2021.05.23-10.38.58:436][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_provoking_vertex
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_raster_multisample
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_rescale_normal
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_secondary_color
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_separate_specular_color
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_shadow_funcs
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_sparse_texture2
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_stencil_two_side
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_stencil_wrap
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture3D
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_array
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_cube_map
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_env_combine
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_integer
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_lod
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_object
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_shadow_lod
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_sRGB
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_sRGB_R8
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_storage
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_texture_swizzle
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_timer_query
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_transform_feedback2
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_vertex_array
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_window_rectangles
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_import_sync_object
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_context_flush_control
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_debug
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_memory_object
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_memory_object_fd
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_no_error
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_robustness
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_semaphore
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_EXT_semaphore_fd
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KHR_shader_subgroup
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_KTX_buffer_region
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_bindless_texture
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_blend_square
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_command_list
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_compute_program5
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_conditional_render
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_conservative_raster
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_copy_image
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_depth_buffer_float
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_depth_clamp
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_draw_texture
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_explicit_multisample
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_feature_query
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fence
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fill_rectangle
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_float_buffer
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fog_distance
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fragment_program
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fragment_program_option
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fragment_program2
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_geometry_shader4
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_gpu_program4
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_gpu_program4_1
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_gpu_program5
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_gpu_shader5
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_half_float
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_light_max_exponent
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_memory_attachment
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_multisample_coverage
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_occlusion_query
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_path_rendering
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_point_sprite
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_primitive_restart
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_query_resource
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_query_resource_tag
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_register_combiners
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_register_combiners2
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_sample_locations
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_shader_atomic_float
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2021.05.23-10.38.58:437][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_shader_buffer_load
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_shader_subgroup_partitioned
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texgen_reflection
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_barrier
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_env_combine4
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_multisample
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_rectangle
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_shader
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_shader2
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_texture_shader3
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_transform_feedback
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_transform_feedback2
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_program
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_program1_1
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_program2
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_program2_option
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_vertex_program3
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_viewport_array2
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_viewport_swizzle
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NVX_conditional_render
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_gpu_multicast
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NVX_progress_fence
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_shader_thread_group
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_OVR_multiview
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_OVR_multiview2
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_SGIS_texture_lod
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_SGIX_depth_texture
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_SGIX_shadow
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_SUN_slice_accum
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2021.05.23-10.38.58:438][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2021.05.23-10.38.58:438][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2021.05.23-10.38.58:444][  0]LogRHI: Texture pool is 8601 MB (70% of 12288 MB)
+[2021.05.23-10.38.58:451][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2021.05.23-10.38.58:451][  0]LogSlate: Using Freetype 2.6.0
+[2021.05.23-10.38.58:452][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2021.05.23-10.38.58:452][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2021.05.23-10.38.58:539][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2021.05.23-10.38.58:602][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.003847 seconds
+[2021.05.23-10.38.58:602][  0]LogPakFile: New pak file ../../../Test_airsim/Content/Paks/Test_airsim-LinuxNoEditor.pak added to pak precacher.
+[2021.05.23-10.38.58:603][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.05.23-10.38.58:612][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2021.05.23-10.38.58:701][  0]LogNetVersion: Test_airsim , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3765968091)
+[2021.05.23-10.38.58:720][  0]LogUnrealCV:Warning: Can not recognize visualization mode 
+[2021.05.23-10.38.58:720][  0]LogMoviePlayer: Initializing movie player
+[2021.05.23-10.38.58:739][  0]LogUnrealCV:Warning: Loading config
+[2021.05.23-10.38.58:739][  0]LogUnrealCV:Warning: Port: 9000
+[2021.05.23-10.38.58:739][  0]LogUnrealCV:Warning: Width: 320
+[2021.05.23-10.38.58:740][  0]LogUnrealCV:Warning: Height: 240
+[2021.05.23-10.38.58:740][  0]LogUnrealCV:Warning: FOV: 90.000000
+[2021.05.23-10.38.58:740][  0]LogUnrealCV:Warning: EnableInput: true
+[2021.05.23-10.38.58:740][  0]LogUnrealCV:Warning: EnableRightEye: false
+[2021.05.23-10.38.58:740][  0]LogUnrealCV:Warning: The UriTemplate vrun ([^ ]*)[ ]*$ already exist, overwrited.
+[2021.05.23-10.38.58:740][  0]LogUnrealCV:Warning: Start listening on 9000
+[2021.05.23-10.38.58:741][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.23-10.38.58:745][  0]LogUObjectArray: 29581 objects as part of root set at end of initial load.
+[2021.05.23-10.38.58:745][  0]LogUObjectAllocator: 5790176 out of 0 bytes used by permanent object pool.
+[2021.05.23-10.38.58:745][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.23-10.38.58:746][  0]LogEngine: Initializing Engine...
+[2021.05.23-10.38.58:746][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.23-10.38.58:746][  0]LogStreaming:Error: Couldn't find file for package /Script/Engine requested by async loading code. NameToLoad: /Script/Engine
+[2021.05.23-10.38.58:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.05.23-10.38.58:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.05.23-10.38.58:953][  0]LogALAudio: ALAudio device opened : OpenAL Soft
+[2021.05.23-10.38.58:953][  0]LogALAudio: AL_VENDOR      : OpenAL Community
+[2021.05.23-10.38.58:953][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2021.05.23-10.38.58:953][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2021.05.23-10.38.58:953][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2021.05.23-10.38.58:953][  0]LogInit: FAudioDevice initialized.
+[2021.05.23-10.38.58:970][  0]LogInit: Texture streaming: Enabled
+[2021.05.23-10.38.58:995][  0]LogInit:Display: Game Engine Initialized.
+[2021.05.23-10.38.58:995][  0]LogInit:Display: Starting Game.
+[2021.05.23-10.38.58:995][  0]LogNet: Browse: /Game/Gorner_shade?Name=Player
+[2021.05.23-10.38.59:004][  0]LogLoad: LoadMap: /Game/Gorner_shade?Name=Player
+[2021.05.23-10.38.59:043][  0]LogMemory: Platform Memory Stats for LinuxNoEditor
+[2021.05.23-10.38.59:043][  0]LogMemory: Process Physical Memory: 417.58 MB used, 446.98 MB peak
+[2021.05.23-10.38.59:043][  0]LogMemory: Process Virtual Memory: 2340.85 MB used, 2427.84 MB peak
+[2021.05.23-10.38.59:043][  0]LogMemory: Physical Memory: 12292.42 MB used,  3708.46 MB free, 16000.88 MB total
+[2021.05.23-10.38.59:043][  0]LogMemory: Virtual Memory: 400.13 MB used,  3708.46 MB free, 2048.00 MB total
+[2021.05.23-10.38.59:043][  0]LogMemory: 
+[2021.05.23-10.38.59:043][  0]Allocator Stats for binned2: (not implemented)
+[2021.05.23-10.38.59:167][  0]LogAIModule: Creating AISystem for world Gorner_shade
+[2021.05.23-10.38.59:168][  0]LogLoad: Game class is 'UE4CVGameMode'
+[2021.05.23-10.38.59:169][  0]LogWorld: Bringing World /Game/Gorner_shade.Gorner_shade up for play (max tick rate 0) at 2021.05.23-10.38.59
+[2021.05.23-10.38.59:170][  0]LogWorld: Bringing up level for play took: 0.000499
+[2021.05.23-10.38.59:170][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.23-10.38.59:170][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.23-10.38.59:170][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.23-10.38.59:171][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.23-10.38.59:171][  0]LogLoad: Took 0.167030 seconds to LoadMap(/Game/Gorner_shade)
+[2021.05.23-10.38.59:193][  0]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2021.05.23-10.38.59:198][  0]LogLoad: (Engine Initialization) Total time: 1.03 seconds
+[2021.05.23-10.38.59:198][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.05.23-10.38.59:214][  0]LogInit: Adding external input plugin.
+[2021.05.23-10.38.59:239][  2]LogRenderer: Reallocating scene render targets to support 1024x768 NumSamples 1 (Frame:1).
+[2021.05.23-10.39.41:417][609]LogUnrealCV:Warning: New client connected from 127.0.0.1:39902
+[2021.05.23-10.39.41:417][609]LogUnrealCV:Warning: Request: 0:vrun setres 320x240w
+[2021.05.23-10.39.41:437][609]LogUnrealCV:Warning: Receive message 0:vrun setres 320x240w
+[2021.05.23-10.39.41:437][609]LogUnrealCV:Warning: Can not recognize visualization mode 
+[2021.05.23-10.39.41:437][609]LogUnrealCV:Warning: Can not recognize visualization mode lit
+[2021.05.23-10.39.41:437][609]LogUnrealCV:Warning: Can not recognize visualization mode object_mask
+[2021.05.23-10.39.41:437][609]LogUnrealCV:Warning: Enabling input
+[2021.05.23-10.39.41:438][609]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.41:438][610]LogUnrealCV:Warning: Request: 1:vrun sg.ShadowQuality 0
+[2021.05.23-10.39.41:438][610]LogUnrealCV:Warning: Receive message 1:vrun sg.ShadowQuality 0
+[2021.05.23-10.39.41:460][610]LogRenderer: Reallocating scene render targets to support 320x240 NumSamples 1 (Frame:2612).
+[2021.05.23-10.39.41:461][610]sg.ShadowQuality = "0"
+[2021.05.23-10.39.41:461][610]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.41:462][611]LogUnrealCV:Warning: Request: 2:vrun sg.TextureQuality 0
+[2021.05.23-10.39.41:462][611]LogUnrealCV:Warning: Receive message 2:vrun sg.TextureQuality 0
+[2021.05.23-10.39.41:477][611]sg.TextureQuality = "0"
+[2021.05.23-10.39.41:478][611]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.41:478][611]LogUnrealCV:Warning: Request: 3:vrun sg.EffectsQuality 0
+[2021.05.23-10.39.41:478][611]LogContentStreaming: Texture pool size now 400 MB
+[2021.05.23-10.39.41:478][612]LogUnrealCV:Warning: Receive message 3:vrun sg.EffectsQuality 0
+[2021.05.23-10.39.41:494][612]LogRenderer: Reallocating scene render targets to support 320x240 NumSamples 1 (Frame:2613).
+[2021.05.23-10.39.41:528][612]LogLinux: Setting swap interval to 'Immediate'
+[2021.05.23-10.39.41:528][612]LogLinux:Warning: Unable to set desired swap interval 'Immediate'
+[2021.05.23-10.39.41:529][612]sg.EffectsQuality = "0"
+[2021.05.23-10.39.41:568][612]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.41:569][613]LogRenderer: Reallocating scene render targets to support 320x240 NumSamples 1 (Frame:2615).
+[2021.05.23-10.39.42:570][676]LogUnrealCV:Warning: Request: 4:vget /camera/0/rotation
+[2021.05.23-10.39.42:587][676]LogUnrealCV:Warning: Receive message 4:vget /camera/0/rotation
+[2021.05.23-10.39.42:587][676]LogUnrealCV:Warning: Response: 0.000 0.000 0.000
+[2021.05.23-10.39.42:588][677]LogUnrealCV:Warning: Request: 5:vget /camera/0/location
+[2021.05.23-10.39.42:603][677]LogUnrealCV:Warning: Receive message 5:vget /camera/0/location
+[2021.05.23-10.39.42:603][677]LogUnrealCV:Warning: Response: 0.000 0.000 112.001
+[2021.05.23-10.39.42:604][678]LogUnrealCV:Warning: Request: 6:vget /object/FloorGood/color
+[2021.05.23-10.39.42:620][678]LogUnrealCV:Warning: Receive message 6:vget /object/FloorGood/color
+[2021.05.23-10.39.42:620][678]LogUnrealCV:Warning: Response: error Object FloorGood not exist
+[2021.05.23-10.39.42:876][694]LogUnrealCV:Warning: Request: 7:vget /camera/0/lit png
+[2021.05.23-10.39.42:876][694]LogUnrealCV:Warning: Receive message 7:vget /camera/0/lit png
+[2021.05.23-10.39.42:904][694]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.43:197][714]LogUnrealCV:Warning: Request: 8:vget /camera/0/location
+[2021.05.23-10.39.43:197][714]LogUnrealCV:Warning: Receive message 8:vget /camera/0/location
+[2021.05.23-10.39.43:213][714]LogUnrealCV:Warning: Response: 0.000 0.000 112.001
+[2021.05.23-10.39.43:230][715]LogUnrealCV:Warning: Request: 9:vget /camera/0/rotation
+[2021.05.23-10.39.43:230][715]LogUnrealCV:Warning: Receive message 9:vget /camera/0/rotation
+[2021.05.23-10.39.43:230][715]LogUnrealCV:Warning: Response: 0.000 0.000 0.000
+[2021.05.23-10.39.43:230][716]LogUnrealCV:Warning: Request: 10:vset /camera/0/location 0.0 0.0 112.001
+[2021.05.23-10.39.43:230][716]LogUnrealCV:Warning: Receive message 10:vset /camera/0/location 0.0 0.0 112.001
+[2021.05.23-10.39.43:246][716]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.45:918][881]LogUnrealCV:Warning: Request: 11:vset /camera/0/location 11320.213954965115 -5893.329312563394 -8578.582506336978
+[2021.05.23-10.39.45:918][881]LogUnrealCV:Warning: Receive message 11:vset /camera/0/location 11320.213954965115 -5893.329312563394 -8578.582506336978
+[2021.05.23-10.39.45:918][881]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.45:918][882]LogUnrealCV:Warning: Request: 12:vset /camera/0/rotation -90 315 32
+[2021.05.23-10.39.45:934][882]LogUnrealCV:Warning: Receive message 12:vset /camera/0/rotation -90 315 32
+[2021.05.23-10.39.45:934][882]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.45:934][883]LogUnrealCV:Warning: Request: 13:vget /camera/0/location
+[2021.05.23-10.39.45:934][883]LogUnrealCV:Warning: Receive message 13:vget /camera/0/location
+[2021.05.23-10.39.45:950][883]LogUnrealCV:Warning: Response: 11320.214 -5893.329 -8578.582
+[2021.05.23-10.39.45:966][884]LogUnrealCV:Warning: Request: 14:vget /camera/0/rotation
+[2021.05.23-10.39.45:966][884]LogUnrealCV:Warning: Receive message 14:vget /camera/0/rotation
+[2021.05.23-10.39.45:966][884]LogUnrealCV:Warning: Response: 270.100 315.000 32.000
+[2021.05.23-10.39.45:967][885]LogUnrealCV:Warning: Request: 15:vget /camera/0/location
+[2021.05.23-10.39.45:967][885]LogUnrealCV:Warning: Receive message 15:vget /camera/0/location
+[2021.05.23-10.39.45:982][885]LogUnrealCV:Warning: Response: 11320.214 -5893.329 -8578.582
+[2021.05.23-10.39.45:983][886]LogUnrealCV:Warning: Request: 16:vget /camera/0/rotation
+[2021.05.23-10.39.45:999][886]LogUnrealCV:Warning: Receive message 16:vget /camera/0/rotation
+[2021.05.23-10.39.45:999][886]LogUnrealCV:Warning: Response: 270.100 315.000 32.000
+[2021.05.23-10.39.45:999][887]LogUnrealCV:Warning: Request: 17:vset /camera/0/location 11360.214 -5853.329 -8598.582
+[2021.05.23-10.39.46:015][887]LogUnrealCV:Warning: Receive message 17:vset /camera/0/location 11360.214 -5853.329 -8598.582
+[2021.05.23-10.39.46:015][887]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:015][888]LogUnrealCV:Warning: Request: 18:vget /camera/0/location
+[2021.05.23-10.39.46:015][888]LogUnrealCV:Warning: Receive message 18:vget /camera/0/location
+[2021.05.23-10.39.46:031][888]LogUnrealCV:Warning: Response: 11360.214 -5853.329 -8598.582
+[2021.05.23-10.39.46:032][889]LogUnrealCV:Warning: Request: 19:vget /camera/0/rotation
+[2021.05.23-10.39.46:047][889]LogUnrealCV:Warning: Receive message 19:vget /camera/0/rotation
+[2021.05.23-10.39.46:047][889]LogUnrealCV:Warning: Response: 270.100 315.000 32.000
+[2021.05.23-10.39.46:048][890]LogUnrealCV:Warning: Request: 20:vset /camera/0/location 11320.213954965115 -5893.329312563394 -8578.582506336978
+[2021.05.23-10.39.46:064][890]LogUnrealCV:Warning: Receive message 20:vset /camera/0/location 11320.213954965115 -5893.329312563394 -8578.582506336978
+[2021.05.23-10.39.46:064][890]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:064][891]LogUnrealCV:Warning: Request: 21:vset /camera/0/rotation -90 315 32
+[2021.05.23-10.39.46:064][891]LogUnrealCV:Warning: Receive message 21:vset /camera/0/rotation -90 315 32
+[2021.05.23-10.39.46:079][891]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:079][892]LogUnrealCV:Warning: Request: 22:vget /camera/0/lit png
+[2021.05.23-10.39.46:079][892]LogUnrealCV:Warning: Receive message 22:vget /camera/0/lit png
+[2021.05.23-10.39.46:130][892]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:536][918]LogUnrealCV:Warning: Request: 23:vset /camera/0/location 2828.420708167014 -17607.795100078038 -10312.488800878618
+[2021.05.23-10.39.46:536][918]LogUnrealCV:Warning: Receive message 23:vset /camera/0/location 2828.420708167014 -17607.795100078038 -10312.488800878618
+[2021.05.23-10.39.46:536][918]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:537][919]LogUnrealCV:Warning: Request: 24:vset /camera/0/rotation -90 286 90
+[2021.05.23-10.39.46:552][919]LogUnrealCV:Warning: Receive message 24:vset /camera/0/rotation -90 286 90
+[2021.05.23-10.39.46:552][919]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:553][920]LogUnrealCV:Warning: Request: 25:vget /camera/0/location
+[2021.05.23-10.39.46:553][920]LogUnrealCV:Warning: Receive message 25:vget /camera/0/location
+[2021.05.23-10.39.46:568][920]LogUnrealCV:Warning: Response: 2828.421 -17607.795 -10312.489
+[2021.05.23-10.39.46:569][921]LogUnrealCV:Warning: Request: 26:vget /camera/0/rotation
+[2021.05.23-10.39.46:569][921]LogUnrealCV:Warning: Receive message 26:vget /camera/0/rotation
+[2021.05.23-10.39.46:585][921]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.46:585][922]LogUnrealCV:Warning: Request: 27:vget /camera/0/location
+[2021.05.23-10.39.46:585][922]LogUnrealCV:Warning: Receive message 27:vget /camera/0/location
+[2021.05.23-10.39.46:601][922]LogUnrealCV:Warning: Response: 2828.421 -17607.795 -10312.489
+[2021.05.23-10.39.46:601][923]LogUnrealCV:Warning: Request: 28:vget /camera/0/rotation
+[2021.05.23-10.39.46:617][923]LogUnrealCV:Warning: Receive message 28:vget /camera/0/rotation
+[2021.05.23-10.39.46:617][923]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.46:620][924]LogUnrealCV:Warning: Request: 29:vset /camera/0/location 2868.421 -17567.795 -10332.489
+[2021.05.23-10.39.46:620][924]LogUnrealCV:Warning: Receive message 29:vset /camera/0/location 2868.421 -17567.795 -10332.489
+[2021.05.23-10.39.46:633][924]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:633][925]LogUnrealCV:Warning: Request: 30:vget /camera/0/location
+[2021.05.23-10.39.46:649][925]LogUnrealCV:Warning: Receive message 30:vget /camera/0/location
+[2021.05.23-10.39.46:649][925]LogUnrealCV:Warning: Response: 2868.421 -17567.795 -10332.489
+[2021.05.23-10.39.46:650][926]LogUnrealCV:Warning: Request: 31:vget /camera/0/rotation
+[2021.05.23-10.39.46:650][926]LogUnrealCV:Warning: Receive message 31:vget /camera/0/rotation
+[2021.05.23-10.39.46:665][926]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.46:665][927]LogUnrealCV:Warning: Request: 32:vset /camera/0/location 2828.420708167014 -17607.795100078038 -10312.488800878618
+[2021.05.23-10.39.46:681][927]LogUnrealCV:Warning: Receive message 32:vset /camera/0/location 2828.420708167014 -17607.795100078038 -10312.488800878618
+[2021.05.23-10.39.46:681][927]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:682][928]LogUnrealCV:Warning: Request: 33:vset /camera/0/rotation -90 286 90
+[2021.05.23-10.39.46:682][928]LogUnrealCV:Warning: Receive message 33:vset /camera/0/rotation -90 286 90
+[2021.05.23-10.39.46:697][928]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:698][929]LogUnrealCV:Warning: Request: 34:vget /camera/0/lit png
+[2021.05.23-10.39.46:713][929]LogUnrealCV:Warning: Receive message 34:vget /camera/0/lit png
+[2021.05.23-10.39.46:751][929]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:948][942]LogUnrealCV:Warning: Request: 35:vget /camera/0/location
+[2021.05.23-10.39.46:948][942]LogUnrealCV:Warning: Receive message 35:vget /camera/0/location
+[2021.05.23-10.39.46:948][942]LogUnrealCV:Warning: Response: 2828.421 -17607.795 -10312.489
+[2021.05.23-10.39.46:963][943]LogUnrealCV:Warning: Request: 36:vget /camera/0/rotation
+[2021.05.23-10.39.46:963][943]LogUnrealCV:Warning: Receive message 36:vget /camera/0/rotation
+[2021.05.23-10.39.46:963][943]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.46:980][944]LogUnrealCV:Warning: Request: 37:vset /camera/0/location 2928.421 -17607.795 -10312.489
+[2021.05.23-10.39.46:980][944]LogUnrealCV:Warning: Receive message 37:vset /camera/0/location 2928.421 -17607.795 -10312.489
+[2021.05.23-10.39.46:980][944]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.46:980][945]LogUnrealCV:Warning: Request: 38:vget /camera/0/location
+[2021.05.23-10.39.46:980][945]LogUnrealCV:Warning: Receive message 38:vget /camera/0/location
+[2021.05.23-10.39.46:996][945]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10312.489
+[2021.05.23-10.39.46:997][946]LogUnrealCV:Warning: Request: 39:vget /camera/0/rotation
+[2021.05.23-10.39.46:997][946]LogUnrealCV:Warning: Receive message 39:vget /camera/0/rotation
+[2021.05.23-10.39.47:012][946]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.47:015][947]LogUnrealCV:Warning: Request: 40:vget /camera/0/location
+[2021.05.23-10.39.47:015][947]LogUnrealCV:Warning: Receive message 40:vget /camera/0/location
+[2021.05.23-10.39.47:028][947]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10312.489
+[2021.05.23-10.39.47:029][948]LogUnrealCV:Warning: Request: 41:vget /camera/0/rotation
+[2021.05.23-10.39.47:029][948]LogUnrealCV:Warning: Receive message 41:vget /camera/0/rotation
+[2021.05.23-10.39.47:044][948]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.47:045][949]LogUnrealCV:Warning: Request: 42:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.47:045][949]LogUnrealCV:Warning: Receive message 42:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.47:060][949]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.47:060][949]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.47:063][950]LogUnrealCV:Warning: Request: 43:vget /camera/0/lit png
+[2021.05.23-10.39.47:063][950]LogUnrealCV:Warning: Receive message 43:vget /camera/0/lit png
+[2021.05.23-10.39.47:107][950]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.47:675][986]LogUnrealCV:Warning: Request: 44:vget /camera/0/location
+[2021.05.23-10.39.47:675][986]LogUnrealCV:Warning: Receive message 44:vget /camera/0/location
+[2021.05.23-10.39.47:675][986]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10312.489
+[2021.05.23-10.39.47:675][987]LogUnrealCV:Warning: Request: 45:vget /camera/0/rotation
+[2021.05.23-10.39.47:675][987]LogUnrealCV:Warning: Receive message 45:vget /camera/0/rotation
+[2021.05.23-10.39.47:691][987]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.47:692][988]LogUnrealCV:Warning: Request: 46:vset /camera/0/location 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.47:708][988]LogUnrealCV:Warning: Receive message 46:vset /camera/0/location 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.47:708][988]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.47:708][989]LogUnrealCV:Warning: Request: 47:vget /camera/0/location
+[2021.05.23-10.39.47:708][989]LogUnrealCV:Warning: Receive message 47:vget /camera/0/location
+[2021.05.23-10.39.47:724][989]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.47:724][990]LogUnrealCV:Warning: Request: 48:vget /camera/0/rotation
+[2021.05.23-10.39.47:740][990]LogUnrealCV:Warning: Receive message 48:vget /camera/0/rotation
+[2021.05.23-10.39.47:740][990]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.47:740][991]LogUnrealCV:Warning: Request: 49:vget /camera/0/location
+[2021.05.23-10.39.47:756][991]LogUnrealCV:Warning: Receive message 49:vget /camera/0/location
+[2021.05.23-10.39.47:756][991]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.47:756][992]LogUnrealCV:Warning: Request: 50:vget /camera/0/rotation
+[2021.05.23-10.39.47:771][992]LogUnrealCV:Warning: Receive message 50:vget /camera/0/rotation
+[2021.05.23-10.39.47:771][992]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.47:772][993]LogUnrealCV:Warning: Request: 51:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.47:787][993]LogUnrealCV:Warning: Receive message 51:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.47:787][993]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.47:788][993]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.47:788][994]LogUnrealCV:Warning: Request: 52:vget /camera/0/lit png
+[2021.05.23-10.39.47:788][994]LogUnrealCV:Warning: Receive message 52:vget /camera/0/lit png
+[2021.05.23-10.39.47:840][994]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.48:810][ 56]LogUnrealCV:Warning: Request: 53:vget /camera/0/location
+[2021.05.23-10.39.48:810][ 56]LogUnrealCV:Warning: Receive message 53:vget /camera/0/location
+[2021.05.23-10.39.48:827][ 56]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.48:827][ 57]LogUnrealCV:Warning: Request: 54:vget /camera/0/rotation
+[2021.05.23-10.39.48:844][ 57]LogUnrealCV:Warning: Receive message 54:vget /camera/0/rotation
+[2021.05.23-10.39.48:844][ 57]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.48:859][ 58]LogUnrealCV:Warning: Request: 55:vset /camera/0/location 2928.421 -17507.795 -10412.489
+[2021.05.23-10.39.48:859][ 58]LogUnrealCV:Warning: Receive message 55:vset /camera/0/location 2928.421 -17507.795 -10412.489
+[2021.05.23-10.39.48:859][ 58]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.48:860][ 59]LogUnrealCV:Warning: Request: 56:vget /camera/0/location
+[2021.05.23-10.39.48:860][ 59]LogUnrealCV:Warning: Receive message 56:vget /camera/0/location
+[2021.05.23-10.39.48:877][ 59]LogUnrealCV:Warning: Response: 2928.421 -17507.795 -10412.489
+[2021.05.23-10.39.48:877][ 60]LogUnrealCV:Warning: Request: 57:vget /camera/0/rotation
+[2021.05.23-10.39.48:892][ 60]LogUnrealCV:Warning: Receive message 57:vget /camera/0/rotation
+[2021.05.23-10.39.48:892][ 60]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.48:893][ 61]LogUnrealCV:Warning: Request: 58:vget /camera/0/location
+[2021.05.23-10.39.48:893][ 61]LogUnrealCV:Warning: Receive message 58:vget /camera/0/location
+[2021.05.23-10.39.48:909][ 61]LogUnrealCV:Warning: Response: 2928.421 -17507.795 -10412.489
+[2021.05.23-10.39.48:909][ 62]LogUnrealCV:Warning: Request: 59:vget /camera/0/rotation
+[2021.05.23-10.39.48:909][ 62]LogUnrealCV:Warning: Receive message 59:vget /camera/0/rotation
+[2021.05.23-10.39.48:924][ 62]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.48:925][ 63]LogUnrealCV:Warning: Request: 60:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.48:925][ 63]LogUnrealCV:Warning: Receive message 60:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.48:940][ 63]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.48:940][ 63]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.48:940][ 64]LogUnrealCV:Warning: Request: 61:vget /camera/0/lit png
+[2021.05.23-10.39.48:941][ 64]LogUnrealCV:Warning: Receive message 61:vget /camera/0/lit png
+[2021.05.23-10.39.48:989][ 64]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.49:508][ 97]LogUnrealCV:Warning: Request: 62:vget /camera/0/location
+[2021.05.23-10.39.49:509][ 97]LogUnrealCV:Warning: Receive message 62:vget /camera/0/location
+[2021.05.23-10.39.49:509][ 97]LogUnrealCV:Warning: Response: 2928.421 -17507.795 -10412.489
+[2021.05.23-10.39.49:524][ 98]LogUnrealCV:Warning: Request: 63:vget /camera/0/rotation
+[2021.05.23-10.39.49:524][ 98]LogUnrealCV:Warning: Receive message 63:vget /camera/0/rotation
+[2021.05.23-10.39.49:524][ 98]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.49:541][ 99]LogUnrealCV:Warning: Request: 64:vset /camera/0/location 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:541][ 99]LogUnrealCV:Warning: Receive message 64:vset /camera/0/location 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:541][ 99]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.49:541][100]LogUnrealCV:Warning: Request: 65:vget /camera/0/location
+[2021.05.23-10.39.49:557][100]LogUnrealCV:Warning: Receive message 65:vget /camera/0/location
+[2021.05.23-10.39.49:557][100]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:573][101]LogUnrealCV:Warning: Request: 66:vget /camera/0/rotation
+[2021.05.23-10.39.49:573][101]LogUnrealCV:Warning: Receive message 66:vget /camera/0/rotation
+[2021.05.23-10.39.49:573][101]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.49:589][102]LogUnrealCV:Warning: Request: 67:vget /camera/0/location
+[2021.05.23-10.39.49:589][102]LogUnrealCV:Warning: Receive message 67:vget /camera/0/location
+[2021.05.23-10.39.49:589][102]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:605][103]LogUnrealCV:Warning: Request: 68:vget /camera/0/rotation
+[2021.05.23-10.39.49:605][103]LogUnrealCV:Warning: Receive message 68:vget /camera/0/rotation
+[2021.05.23-10.39.49:605][103]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.49:606][104]LogUnrealCV:Warning: Request: 69:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.49:621][104]LogUnrealCV:Warning: Receive message 69:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.49:621][104]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.49:621][104]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.49:622][105]LogUnrealCV:Warning: Request: 70:vget /camera/0/lit png
+[2021.05.23-10.39.49:637][105]LogUnrealCV:Warning: Receive message 70:vget /camera/0/lit png
+[2021.05.23-10.39.49:669][105]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.49:849][117]LogUnrealCV:Warning: Request: 71:vget /camera/0/location
+[2021.05.23-10.39.49:849][117]LogUnrealCV:Warning: Receive message 71:vget /camera/0/location
+[2021.05.23-10.39.49:849][117]LogUnrealCV:Warning: Response: 2928.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:850][118]LogUnrealCV:Warning: Request: 72:vget /camera/0/rotation
+[2021.05.23-10.39.49:850][118]LogUnrealCV:Warning: Receive message 72:vget /camera/0/rotation
+[2021.05.23-10.39.49:864][118]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.49:881][119]LogUnrealCV:Warning: Request: 73:vset /camera/0/location 2828.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:881][119]LogUnrealCV:Warning: Receive message 73:vset /camera/0/location 2828.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:881][119]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.49:882][120]LogUnrealCV:Warning: Request: 74:vget /camera/0/location
+[2021.05.23-10.39.49:882][120]LogUnrealCV:Warning: Receive message 74:vget /camera/0/location
+[2021.05.23-10.39.49:898][120]LogUnrealCV:Warning: Response: 2828.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:899][121]LogUnrealCV:Warning: Request: 75:vget /camera/0/rotation
+[2021.05.23-10.39.49:899][121]LogUnrealCV:Warning: Receive message 75:vget /camera/0/rotation
+[2021.05.23-10.39.49:913][121]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.49:914][122]LogUnrealCV:Warning: Request: 76:vget /camera/0/location
+[2021.05.23-10.39.49:929][122]LogUnrealCV:Warning: Receive message 76:vget /camera/0/location
+[2021.05.23-10.39.49:929][122]LogUnrealCV:Warning: Response: 2828.421 -17607.795 -10412.489
+[2021.05.23-10.39.49:930][123]LogUnrealCV:Warning: Request: 77:vget /camera/0/rotation
+[2021.05.23-10.39.49:945][123]LogUnrealCV:Warning: Receive message 77:vget /camera/0/rotation
+[2021.05.23-10.39.49:945][123]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.49:946][124]LogUnrealCV:Warning: Request: 78:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.49:946][124]LogUnrealCV:Warning: Receive message 78:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.49:961][124]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.49:961][124]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.49:962][125]LogUnrealCV:Warning: Request: 79:vget /camera/0/lit png
+[2021.05.23-10.39.49:962][125]LogUnrealCV:Warning: Receive message 79:vget /camera/0/lit png
+[2021.05.23-10.39.50:013][125]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.50:355][147]LogUnrealCV:Warning: Request: 80:vget /camera/0/location
+[2021.05.23-10.39.50:355][147]LogUnrealCV:Warning: Receive message 80:vget /camera/0/location
+[2021.05.23-10.39.50:355][147]LogUnrealCV:Warning: Response: 2828.421 -17607.795 -10412.489
+[2021.05.23-10.39.50:356][148]LogUnrealCV:Warning: Request: 81:vget /camera/0/rotation
+[2021.05.23-10.39.50:371][148]LogUnrealCV:Warning: Receive message 81:vget /camera/0/rotation
+[2021.05.23-10.39.50:371][148]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.50:372][149]LogUnrealCV:Warning: Request: 82:vset /camera/0/location 2828.421 -17507.795 -10412.489
+[2021.05.23-10.39.50:387][149]LogUnrealCV:Warning: Receive message 82:vset /camera/0/location 2828.421 -17507.795 -10412.489
+[2021.05.23-10.39.50:387][149]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.50:387][150]LogUnrealCV:Warning: Request: 83:vget /camera/0/location
+[2021.05.23-10.39.50:387][150]LogUnrealCV:Warning: Receive message 83:vget /camera/0/location
+[2021.05.23-10.39.50:404][150]LogUnrealCV:Warning: Response: 2828.421 -17507.795 -10412.489
+[2021.05.23-10.39.50:405][151]LogUnrealCV:Warning: Request: 84:vget /camera/0/rotation
+[2021.05.23-10.39.50:421][151]LogUnrealCV:Warning: Receive message 84:vget /camera/0/rotation
+[2021.05.23-10.39.50:421][151]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.50:422][152]LogUnrealCV:Warning: Request: 85:vget /camera/0/location
+[2021.05.23-10.39.50:436][152]LogUnrealCV:Warning: Receive message 85:vget /camera/0/location
+[2021.05.23-10.39.50:436][152]LogUnrealCV:Warning: Response: 2828.421 -17507.795 -10412.489
+[2021.05.23-10.39.50:452][153]LogUnrealCV:Warning: Request: 86:vget /camera/0/rotation
+[2021.05.23-10.39.50:452][153]LogUnrealCV:Warning: Receive message 86:vget /camera/0/rotation
+[2021.05.23-10.39.50:452][153]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.50:452][154]LogUnrealCV:Warning: Request: 87:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.50:452][154]LogUnrealCV:Warning: Receive message 87:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.50:468][154]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.50:468][154]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.50:468][155]LogUnrealCV:Warning: Request: 88:vget /camera/0/lit png
+[2021.05.23-10.39.50:468][155]LogUnrealCV:Warning: Receive message 88:vget /camera/0/lit png
+[2021.05.23-10.39.50:516][155]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.51:103][191]LogUnrealCV:Warning: Request: 89:vget /camera/0/location
+[2021.05.23-10.39.51:103][191]LogUnrealCV:Warning: Receive message 89:vget /camera/0/location
+[2021.05.23-10.39.51:103][191]LogUnrealCV:Warning: Response: 2828.421 -17507.795 -10412.489
+[2021.05.23-10.39.51:119][192]LogUnrealCV:Warning: Request: 90:vget /camera/0/rotation
+[2021.05.23-10.39.51:119][192]LogUnrealCV:Warning: Receive message 90:vget /camera/0/rotation
+[2021.05.23-10.39.51:119][192]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.51:135][193]LogUnrealCV:Warning: Request: 91:vset /camera/0/location 2828.421 -17407.795 -10412.489
+[2021.05.23-10.39.51:135][193]LogUnrealCV:Warning: Receive message 91:vset /camera/0/location 2828.421 -17407.795 -10412.489
+[2021.05.23-10.39.51:135][193]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.51:136][194]LogUnrealCV:Warning: Request: 92:vget /camera/0/location
+[2021.05.23-10.39.51:152][194]LogUnrealCV:Warning: Receive message 92:vget /camera/0/location
+[2021.05.23-10.39.51:152][194]LogUnrealCV:Warning: Response: 2828.421 -17407.795 -10412.489
+[2021.05.23-10.39.51:168][195]LogUnrealCV:Warning: Request: 93:vget /camera/0/rotation
+[2021.05.23-10.39.51:168][195]LogUnrealCV:Warning: Receive message 93:vget /camera/0/rotation
+[2021.05.23-10.39.51:168][195]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.51:169][196]LogUnrealCV:Warning: Request: 94:vget /camera/0/location
+[2021.05.23-10.39.51:184][196]LogUnrealCV:Warning: Receive message 94:vget /camera/0/location
+[2021.05.23-10.39.51:184][196]LogUnrealCV:Warning: Response: 2828.421 -17407.795 -10412.489
+[2021.05.23-10.39.51:201][197]LogUnrealCV:Warning: Request: 95:vget /camera/0/rotation
+[2021.05.23-10.39.51:201][197]LogUnrealCV:Warning: Receive message 95:vget /camera/0/rotation
+[2021.05.23-10.39.51:201][197]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.51:201][198]LogUnrealCV:Warning: Request: 96:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.51:201][198]LogUnrealCV:Warning: Receive message 96:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.51:217][198]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.51:217][198]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.51:217][199]LogUnrealCV:Warning: Request: 97:vget /camera/0/lit png
+[2021.05.23-10.39.51:217][199]LogUnrealCV:Warning: Receive message 97:vget /camera/0/lit png
+[2021.05.23-10.39.51:270][199]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.51:920][240]LogUnrealCV:Warning: Request: 98:vget /camera/0/location
+[2021.05.23-10.39.51:920][240]LogUnrealCV:Warning: Receive message 98:vget /camera/0/location
+[2021.05.23-10.39.51:920][240]LogUnrealCV:Warning: Response: 2828.421 -17407.795 -10412.489
+[2021.05.23-10.39.51:921][241]LogUnrealCV:Warning: Request: 99:vget /camera/0/rotation
+[2021.05.23-10.39.51:921][241]LogUnrealCV:Warning: Receive message 99:vget /camera/0/rotation
+[2021.05.23-10.39.51:936][241]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.51:952][242]LogUnrealCV:Warning: Request: 100:vset /camera/0/location 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.51:952][242]LogUnrealCV:Warning: Receive message 100:vset /camera/0/location 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.51:952][242]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.51:953][243]LogUnrealCV:Warning: Request: 101:vget /camera/0/location
+[2021.05.23-10.39.51:953][243]LogUnrealCV:Warning: Receive message 101:vget /camera/0/location
+[2021.05.23-10.39.51:969][243]LogUnrealCV:Warning: Response: 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.51:969][244]LogUnrealCV:Warning: Request: 102:vget /camera/0/rotation
+[2021.05.23-10.39.51:970][244]LogUnrealCV:Warning: Receive message 102:vget /camera/0/rotation
+[2021.05.23-10.39.51:985][244]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.51:986][245]LogUnrealCV:Warning: Request: 103:vget /camera/0/location
+[2021.05.23-10.39.51:986][245]LogUnrealCV:Warning: Receive message 103:vget /camera/0/location
+[2021.05.23-10.39.52:001][245]LogUnrealCV:Warning: Response: 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.52:002][246]LogUnrealCV:Warning: Request: 104:vget /camera/0/rotation
+[2021.05.23-10.39.52:002][246]LogUnrealCV:Warning: Receive message 104:vget /camera/0/rotation
+[2021.05.23-10.39.52:017][246]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:018][247]LogUnrealCV:Warning: Request: 105:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.52:018][247]LogUnrealCV:Warning: Receive message 105:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.52:033][247]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.52:033][247]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:033][248]LogUnrealCV:Warning: Request: 106:vget /camera/0/lit png
+[2021.05.23-10.39.52:033][248]LogUnrealCV:Warning: Receive message 106:vget /camera/0/lit png
+[2021.05.23-10.39.52:081][248]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:297][262]LogUnrealCV:Warning: Request: 107:vget /camera/0/location
+[2021.05.23-10.39.52:297][262]LogUnrealCV:Warning: Receive message 107:vget /camera/0/location
+[2021.05.23-10.39.52:297][262]LogUnrealCV:Warning: Response: 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.52:297][263]LogUnrealCV:Warning: Request: 108:vget /camera/0/rotation
+[2021.05.23-10.39.52:313][263]LogUnrealCV:Warning: Receive message 108:vget /camera/0/rotation
+[2021.05.23-10.39.52:313][263]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:329][264]LogUnrealCV:Warning: Request: 109:vset /camera/0/location 2828.421 -17207.795 -10412.489
+[2021.05.23-10.39.52:329][264]LogUnrealCV:Warning: Receive message 109:vset /camera/0/location 2828.421 -17207.795 -10412.489
+[2021.05.23-10.39.52:329][264]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:329][265]LogUnrealCV:Warning: Request: 110:vget /camera/0/location
+[2021.05.23-10.39.52:345][265]LogUnrealCV:Warning: Receive message 110:vget /camera/0/location
+[2021.05.23-10.39.52:345][265]LogUnrealCV:Warning: Response: 2828.421 -17207.795 -10412.489
+[2021.05.23-10.39.52:345][266]LogUnrealCV:Warning: Request: 111:vget /camera/0/rotation
+[2021.05.23-10.39.52:361][266]LogUnrealCV:Warning: Receive message 111:vget /camera/0/rotation
+[2021.05.23-10.39.52:361][266]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:362][267]LogUnrealCV:Warning: Request: 112:vget /camera/0/location
+[2021.05.23-10.39.52:377][267]LogUnrealCV:Warning: Receive message 112:vget /camera/0/location
+[2021.05.23-10.39.52:377][267]LogUnrealCV:Warning: Response: 2828.421 -17207.795 -10412.489
+[2021.05.23-10.39.52:395][268]LogUnrealCV:Warning: Request: 113:vget /camera/0/rotation
+[2021.05.23-10.39.52:395][268]LogUnrealCV:Warning: Receive message 113:vget /camera/0/rotation
+[2021.05.23-10.39.52:395][268]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:395][269]LogUnrealCV:Warning: Request: 114:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.52:395][269]LogUnrealCV:Warning: Receive message 114:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.52:410][269]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.52:410][269]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:410][270]LogUnrealCV:Warning: Request: 115:vget /camera/0/lit png
+[2021.05.23-10.39.52:426][270]LogUnrealCV:Warning: Receive message 115:vget /camera/0/lit png
+[2021.05.23-10.39.52:459][270]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:639][282]LogUnrealCV:Warning: Request: 116:vget /camera/0/location
+[2021.05.23-10.39.52:639][282]LogUnrealCV:Warning: Receive message 116:vget /camera/0/location
+[2021.05.23-10.39.52:639][282]LogUnrealCV:Warning: Response: 2828.421 -17207.795 -10412.489
+[2021.05.23-10.39.52:639][283]LogUnrealCV:Warning: Request: 117:vget /camera/0/rotation
+[2021.05.23-10.39.52:655][283]LogUnrealCV:Warning: Receive message 117:vget /camera/0/rotation
+[2021.05.23-10.39.52:655][283]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:671][284]LogUnrealCV:Warning: Request: 118:vset /camera/0/location 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.52:671][284]LogUnrealCV:Warning: Receive message 118:vset /camera/0/location 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.52:671][284]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:671][285]LogUnrealCV:Warning: Request: 119:vget /camera/0/location
+[2021.05.23-10.39.52:687][285]LogUnrealCV:Warning: Receive message 119:vget /camera/0/location
+[2021.05.23-10.39.52:687][285]LogUnrealCV:Warning: Response: 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.52:703][286]LogUnrealCV:Warning: Request: 120:vget /camera/0/rotation
+[2021.05.23-10.39.52:703][286]LogUnrealCV:Warning: Receive message 120:vget /camera/0/rotation
+[2021.05.23-10.39.52:703][286]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:708][287]LogUnrealCV:Warning: Request: 121:vget /camera/0/location
+[2021.05.23-10.39.52:708][287]LogUnrealCV:Warning: Receive message 121:vget /camera/0/location
+[2021.05.23-10.39.52:719][287]LogUnrealCV:Warning: Response: 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.52:723][288]LogUnrealCV:Warning: Request: 122:vget /camera/0/rotation
+[2021.05.23-10.39.52:723][288]LogUnrealCV:Warning: Receive message 122:vget /camera/0/rotation
+[2021.05.23-10.39.52:735][288]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.52:736][289]LogUnrealCV:Warning: Request: 123:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.52:736][289]LogUnrealCV:Warning: Receive message 123:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.52:751][289]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.52:751][289]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.52:752][290]LogUnrealCV:Warning: Request: 124:vget /camera/0/lit png
+[2021.05.23-10.39.52:767][290]LogUnrealCV:Warning: Receive message 124:vget /camera/0/lit png
+[2021.05.23-10.39.52:798][290]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.53:253][319]LogUnrealCV:Warning: Request: 125:vget /camera/0/location
+[2021.05.23-10.39.53:253][319]LogUnrealCV:Warning: Receive message 125:vget /camera/0/location
+[2021.05.23-10.39.53:253][319]LogUnrealCV:Warning: Response: 2828.421 -17307.795 -10412.489
+[2021.05.23-10.39.53:254][320]LogUnrealCV:Warning: Request: 126:vget /camera/0/rotation
+[2021.05.23-10.39.53:269][320]LogUnrealCV:Warning: Receive message 126:vget /camera/0/rotation
+[2021.05.23-10.39.53:269][320]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.53:285][321]LogUnrealCV:Warning: Request: 127:vset /camera/0/location 2728.421 -17307.795 -10412.489
+[2021.05.23-10.39.53:285][321]LogUnrealCV:Warning: Receive message 127:vset /camera/0/location 2728.421 -17307.795 -10412.489
+[2021.05.23-10.39.53:285][321]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.53:286][322]LogUnrealCV:Warning: Request: 128:vget /camera/0/location
+[2021.05.23-10.39.53:302][322]LogUnrealCV:Warning: Receive message 128:vget /camera/0/location
+[2021.05.23-10.39.53:302][322]LogUnrealCV:Warning: Response: 2728.421 -17307.795 -10412.489
+[2021.05.23-10.39.53:303][323]LogUnrealCV:Warning: Request: 129:vget /camera/0/rotation
+[2021.05.23-10.39.53:303][323]LogUnrealCV:Warning: Receive message 129:vget /camera/0/rotation
+[2021.05.23-10.39.53:318][323]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.53:318][324]LogUnrealCV:Warning: Request: 130:vget /camera/0/location
+[2021.05.23-10.39.53:335][324]LogUnrealCV:Warning: Receive message 130:vget /camera/0/location
+[2021.05.23-10.39.53:335][324]LogUnrealCV:Warning: Response: 2728.421 -17307.795 -10412.489
+[2021.05.23-10.39.53:350][325]LogUnrealCV:Warning: Request: 131:vget /camera/0/rotation
+[2021.05.23-10.39.53:350][325]LogUnrealCV:Warning: Receive message 131:vget /camera/0/rotation
+[2021.05.23-10.39.53:350][325]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.53:351][326]LogUnrealCV:Warning: Request: 132:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.53:351][326]LogUnrealCV:Warning: Receive message 132:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.53:366][326]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.53:366][326]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.53:366][327]LogUnrealCV:Warning: Request: 133:vget /camera/0/lit png
+[2021.05.23-10.39.53:382][327]LogUnrealCV:Warning: Receive message 133:vget /camera/0/lit png
+[2021.05.23-10.39.53:423][327]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.53:620][340]LogUnrealCV:Warning: Request: 134:vget /camera/0/location
+[2021.05.23-10.39.53:620][340]LogUnrealCV:Warning: Receive message 134:vget /camera/0/location
+[2021.05.23-10.39.53:620][340]LogUnrealCV:Warning: Response: 2728.421 -17307.795 -10412.489
+[2021.05.23-10.39.53:636][341]LogUnrealCV:Warning: Request: 135:vget /camera/0/rotation
+[2021.05.23-10.39.53:636][341]LogUnrealCV:Warning: Receive message 135:vget /camera/0/rotation
+[2021.05.23-10.39.53:636][341]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.53:652][342]LogUnrealCV:Warning: Request: 136:vset /camera/0/location 2728.421 -17207.795 -10412.489
+[2021.05.23-10.39.53:652][342]LogUnrealCV:Warning: Receive message 136:vset /camera/0/location 2728.421 -17207.795 -10412.489
+[2021.05.23-10.39.53:652][342]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.53:653][343]LogUnrealCV:Warning: Request: 137:vget /camera/0/location
+[2021.05.23-10.39.53:653][343]LogUnrealCV:Warning: Receive message 137:vget /camera/0/location
+[2021.05.23-10.39.53:668][343]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10412.489
+[2021.05.23-10.39.53:669][344]LogUnrealCV:Warning: Request: 138:vget /camera/0/rotation
+[2021.05.23-10.39.53:669][344]LogUnrealCV:Warning: Receive message 138:vget /camera/0/rotation
+[2021.05.23-10.39.53:684][344]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.53:685][345]LogUnrealCV:Warning: Request: 139:vget /camera/0/location
+[2021.05.23-10.39.53:685][345]LogUnrealCV:Warning: Receive message 139:vget /camera/0/location
+[2021.05.23-10.39.53:700][345]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10412.489
+[2021.05.23-10.39.53:701][346]LogUnrealCV:Warning: Request: 140:vget /camera/0/rotation
+[2021.05.23-10.39.53:701][346]LogUnrealCV:Warning: Receive message 140:vget /camera/0/rotation
+[2021.05.23-10.39.53:716][346]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.53:717][347]LogUnrealCV:Warning: Request: 141:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.53:717][347]LogUnrealCV:Warning: Receive message 141:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.53:732][347]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.53:732][347]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.53:733][348]LogUnrealCV:Warning: Request: 142:vget /camera/0/lit png
+[2021.05.23-10.39.53:733][348]LogUnrealCV:Warning: Receive message 142:vget /camera/0/lit png
+[2021.05.23-10.39.53:781][348]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:058][366]LogUnrealCV:Warning: Request: 143:vget /camera/0/location
+[2021.05.23-10.39.54:058][366]LogUnrealCV:Warning: Receive message 143:vget /camera/0/location
+[2021.05.23-10.39.54:058][366]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10412.489
+[2021.05.23-10.39.54:059][367]LogUnrealCV:Warning: Request: 144:vget /camera/0/rotation
+[2021.05.23-10.39.54:074][367]LogUnrealCV:Warning: Receive message 144:vget /camera/0/rotation
+[2021.05.23-10.39.54:074][367]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:091][368]LogUnrealCV:Warning: Request: 145:vset /camera/0/location 2728.421 -17207.795 -10312.489
+[2021.05.23-10.39.54:091][368]LogUnrealCV:Warning: Receive message 145:vset /camera/0/location 2728.421 -17207.795 -10312.489
+[2021.05.23-10.39.54:091][368]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:091][369]LogUnrealCV:Warning: Request: 146:vget /camera/0/location
+[2021.05.23-10.39.54:091][369]LogUnrealCV:Warning: Receive message 146:vget /camera/0/location
+[2021.05.23-10.39.54:107][369]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10312.489
+[2021.05.23-10.39.54:107][370]LogUnrealCV:Warning: Request: 147:vget /camera/0/rotation
+[2021.05.23-10.39.54:123][370]LogUnrealCV:Warning: Receive message 147:vget /camera/0/rotation
+[2021.05.23-10.39.54:123][370]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:124][371]LogUnrealCV:Warning: Request: 148:vget /camera/0/location
+[2021.05.23-10.39.54:124][371]LogUnrealCV:Warning: Receive message 148:vget /camera/0/location
+[2021.05.23-10.39.54:139][371]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10312.489
+[2021.05.23-10.39.54:140][372]LogUnrealCV:Warning: Request: 149:vget /camera/0/rotation
+[2021.05.23-10.39.54:155][372]LogUnrealCV:Warning: Receive message 149:vget /camera/0/rotation
+[2021.05.23-10.39.54:155][372]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:155][373]LogUnrealCV:Warning: Request: 150:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.54:171][373]LogUnrealCV:Warning: Receive message 150:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.54:171][373]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.54:171][373]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:171][374]LogUnrealCV:Warning: Request: 151:vget /camera/0/lit png
+[2021.05.23-10.39.54:186][374]LogUnrealCV:Warning: Receive message 151:vget /camera/0/lit png
+[2021.05.23-10.39.54:222][374]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:450][389]LogUnrealCV:Warning: Request: 152:vget /camera/0/location
+[2021.05.23-10.39.54:450][389]LogUnrealCV:Warning: Receive message 152:vget /camera/0/location
+[2021.05.23-10.39.54:450][389]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10312.489
+[2021.05.23-10.39.54:450][390]LogUnrealCV:Warning: Request: 153:vget /camera/0/rotation
+[2021.05.23-10.39.54:450][390]LogUnrealCV:Warning: Receive message 153:vget /camera/0/rotation
+[2021.05.23-10.39.54:466][390]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:482][391]LogUnrealCV:Warning: Request: 154:vset /camera/0/location 2728.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:482][391]LogUnrealCV:Warning: Receive message 154:vset /camera/0/location 2728.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:482][391]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:483][392]LogUnrealCV:Warning: Request: 155:vget /camera/0/location
+[2021.05.23-10.39.54:484][392]LogUnrealCV:Warning: Receive message 155:vget /camera/0/location
+[2021.05.23-10.39.54:498][392]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:499][393]LogUnrealCV:Warning: Request: 156:vget /camera/0/rotation
+[2021.05.23-10.39.54:514][393]LogUnrealCV:Warning: Receive message 156:vget /camera/0/rotation
+[2021.05.23-10.39.54:514][393]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:518][394]LogUnrealCV:Warning: Request: 157:vget /camera/0/location
+[2021.05.23-10.39.54:518][394]LogUnrealCV:Warning: Receive message 157:vget /camera/0/location
+[2021.05.23-10.39.54:531][394]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:547][395]LogUnrealCV:Warning: Request: 158:vget /camera/0/rotation
+[2021.05.23-10.39.54:547][395]LogUnrealCV:Warning: Receive message 158:vget /camera/0/rotation
+[2021.05.23-10.39.54:547][395]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:547][396]LogUnrealCV:Warning: Request: 159:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.54:547][396]LogUnrealCV:Warning: Receive message 159:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.54:563][396]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.54:563][396]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:563][397]LogUnrealCV:Warning: Request: 160:vget /camera/0/lit png
+[2021.05.23-10.39.54:563][397]LogUnrealCV:Warning: Receive message 160:vget /camera/0/lit png
+[2021.05.23-10.39.54:613][397]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:825][411]LogUnrealCV:Warning: Request: 161:vget /camera/0/location
+[2021.05.23-10.39.54:825][411]LogUnrealCV:Warning: Receive message 161:vget /camera/0/location
+[2021.05.23-10.39.54:825][411]LogUnrealCV:Warning: Response: 2728.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:825][412]LogUnrealCV:Warning: Request: 162:vget /camera/0/rotation
+[2021.05.23-10.39.54:841][412]LogUnrealCV:Warning: Receive message 162:vget /camera/0/rotation
+[2021.05.23-10.39.54:841][412]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:857][413]LogUnrealCV:Warning: Request: 163:vset /camera/0/location 2628.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:857][413]LogUnrealCV:Warning: Receive message 163:vset /camera/0/location 2628.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:857][413]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:858][414]LogUnrealCV:Warning: Request: 164:vget /camera/0/location
+[2021.05.23-10.39.54:858][414]LogUnrealCV:Warning: Receive message 164:vget /camera/0/location
+[2021.05.23-10.39.54:873][414]LogUnrealCV:Warning: Response: 2628.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:874][415]LogUnrealCV:Warning: Request: 165:vget /camera/0/rotation
+[2021.05.23-10.39.54:889][415]LogUnrealCV:Warning: Receive message 165:vget /camera/0/rotation
+[2021.05.23-10.39.54:890][415]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:890][416]LogUnrealCV:Warning: Request: 166:vget /camera/0/location
+[2021.05.23-10.39.54:906][416]LogUnrealCV:Warning: Receive message 166:vget /camera/0/location
+[2021.05.23-10.39.54:906][416]LogUnrealCV:Warning: Response: 2628.421 -17207.795 -10212.489
+[2021.05.23-10.39.54:922][417]LogUnrealCV:Warning: Request: 167:vget /camera/0/rotation
+[2021.05.23-10.39.54:922][417]LogUnrealCV:Warning: Receive message 167:vget /camera/0/rotation
+[2021.05.23-10.39.54:922][417]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.54:922][418]LogUnrealCV:Warning: Request: 168:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.54:938][418]LogUnrealCV:Warning: Receive message 168:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.54:938][418]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.54:938][418]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.54:939][419]LogUnrealCV:Warning: Request: 169:vget /camera/0/lit png
+[2021.05.23-10.39.54:939][419]LogUnrealCV:Warning: Receive message 169:vget /camera/0/lit png
+[2021.05.23-10.39.54:985][419]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.55:198][433]LogUnrealCV:Warning: Request: 170:vget /camera/0/location
+[2021.05.23-10.39.55:198][433]LogUnrealCV:Warning: Receive message 170:vget /camera/0/location
+[2021.05.23-10.39.55:198][433]LogUnrealCV:Warning: Response: 2628.421 -17207.795 -10212.489
+[2021.05.23-10.39.55:198][434]LogUnrealCV:Warning: Request: 171:vget /camera/0/rotation
+[2021.05.23-10.39.55:214][434]LogUnrealCV:Warning: Receive message 171:vget /camera/0/rotation
+[2021.05.23-10.39.55:214][434]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.55:230][435]LogUnrealCV:Warning: Request: 172:vset /camera/0/location 2628.421 -17107.795 -10212.489
+[2021.05.23-10.39.55:230][435]LogUnrealCV:Warning: Receive message 172:vset /camera/0/location 2628.421 -17107.795 -10212.489
+[2021.05.23-10.39.55:230][435]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.55:231][436]LogUnrealCV:Warning: Request: 173:vget /camera/0/location
+[2021.05.23-10.39.55:246][436]LogUnrealCV:Warning: Receive message 173:vget /camera/0/location
+[2021.05.23-10.39.55:246][436]LogUnrealCV:Warning: Response: 2628.421 -17107.795 -10212.489
+[2021.05.23-10.39.55:262][437]LogUnrealCV:Warning: Request: 174:vget /camera/0/rotation
+[2021.05.23-10.39.55:262][437]LogUnrealCV:Warning: Receive message 174:vget /camera/0/rotation
+[2021.05.23-10.39.55:262][437]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.55:262][438]LogUnrealCV:Warning: Request: 175:vget /camera/0/location
+[2021.05.23-10.39.55:278][438]LogUnrealCV:Warning: Receive message 175:vget /camera/0/location
+[2021.05.23-10.39.55:278][438]LogUnrealCV:Warning: Response: 2628.421 -17107.795 -10212.489
+[2021.05.23-10.39.55:279][439]LogUnrealCV:Warning: Request: 176:vget /camera/0/rotation
+[2021.05.23-10.39.55:294][439]LogUnrealCV:Warning: Receive message 176:vget /camera/0/rotation
+[2021.05.23-10.39.55:295][439]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.55:295][440]LogUnrealCV:Warning: Request: 177:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.55:295][440]LogUnrealCV:Warning: Receive message 177:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.55:310][440]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.55:310][440]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.55:310][441]LogUnrealCV:Warning: Request: 178:vget /camera/0/lit png
+[2021.05.23-10.39.55:326][441]LogUnrealCV:Warning: Receive message 178:vget /camera/0/lit png
+[2021.05.23-10.39.55:359][441]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.55:701][463]LogUnrealCV:Warning: Request: 179:vget /camera/0/location
+[2021.05.23-10.39.55:701][463]LogUnrealCV:Warning: Receive message 179:vget /camera/0/location
+[2021.05.23-10.39.55:701][463]LogUnrealCV:Warning: Response: 2628.421 -17107.795 -10212.489
+[2021.05.23-10.39.55:701][464]LogUnrealCV:Warning: Request: 180:vget /camera/0/rotation
+[2021.05.23-10.39.55:716][464]LogUnrealCV:Warning: Receive message 180:vget /camera/0/rotation
+[2021.05.23-10.39.55:716][464]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.55:733][465]LogUnrealCV:Warning: Request: 181:vset /camera/0/location 2628.421 -17007.795 -10212.489
+[2021.05.23-10.39.55:733][465]LogUnrealCV:Warning: Receive message 181:vset /camera/0/location 2628.421 -17007.795 -10212.489
+[2021.05.23-10.39.55:733][465]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.55:733][466]LogUnrealCV:Warning: Request: 182:vget /camera/0/location
+[2021.05.23-10.39.55:733][466]LogUnrealCV:Warning: Receive message 182:vget /camera/0/location
+[2021.05.23-10.39.55:748][466]LogUnrealCV:Warning: Response: 2628.421 -17007.795 -10212.489
+[2021.05.23-10.39.55:752][467]LogUnrealCV:Warning: Request: 183:vget /camera/0/rotation
+[2021.05.23-10.39.55:753][467]LogUnrealCV:Warning: Receive message 183:vget /camera/0/rotation
+[2021.05.23-10.39.55:764][467]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.55:766][468]LogUnrealCV:Warning: Request: 184:vget /camera/0/location
+[2021.05.23-10.39.55:766][468]LogUnrealCV:Warning: Receive message 184:vget /camera/0/location
+[2021.05.23-10.39.55:780][468]LogUnrealCV:Warning: Response: 2628.421 -17007.795 -10212.489
+[2021.05.23-10.39.55:781][469]LogUnrealCV:Warning: Request: 185:vget /camera/0/rotation
+[2021.05.23-10.39.55:781][469]LogUnrealCV:Warning: Receive message 185:vget /camera/0/rotation
+[2021.05.23-10.39.55:797][469]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.55:797][470]LogUnrealCV:Warning: Request: 186:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.55:797][470]LogUnrealCV:Warning: Receive message 186:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.55:812][470]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.55:813][470]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.55:815][471]LogUnrealCV:Warning: Request: 187:vget /camera/0/lit png
+[2021.05.23-10.39.55:815][471]LogUnrealCV:Warning: Receive message 187:vget /camera/0/lit png
+[2021.05.23-10.39.55:860][471]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.56:411][506]LogUnrealCV:Warning: Request: 188:vget /camera/0/location
+[2021.05.23-10.39.56:411][506]LogUnrealCV:Warning: Receive message 188:vget /camera/0/location
+[2021.05.23-10.39.56:411][506]LogUnrealCV:Warning: Response: 2628.421 -17007.795 -10212.489
+[2021.05.23-10.39.56:411][507]LogUnrealCV:Warning: Request: 189:vget /camera/0/rotation
+[2021.05.23-10.39.56:427][507]LogUnrealCV:Warning: Receive message 189:vget /camera/0/rotation
+[2021.05.23-10.39.56:427][507]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.56:428][508]LogUnrealCV:Warning: Request: 190:vset /camera/0/location 2728.421 -17007.795 -10212.489
+[2021.05.23-10.39.56:443][508]LogUnrealCV:Warning: Receive message 190:vset /camera/0/location 2728.421 -17007.795 -10212.489
+[2021.05.23-10.39.56:443][508]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.56:443][509]LogUnrealCV:Warning: Request: 191:vget /camera/0/location
+[2021.05.23-10.39.56:443][509]LogUnrealCV:Warning: Receive message 191:vget /camera/0/location
+[2021.05.23-10.39.56:459][509]LogUnrealCV:Warning: Response: 2728.421 -17007.795 -10212.489
+[2021.05.23-10.39.56:460][510]LogUnrealCV:Warning: Request: 192:vget /camera/0/rotation
+[2021.05.23-10.39.56:476][510]LogUnrealCV:Warning: Receive message 192:vget /camera/0/rotation
+[2021.05.23-10.39.56:476][510]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.56:477][511]LogUnrealCV:Warning: Request: 193:vget /camera/0/location
+[2021.05.23-10.39.56:477][511]LogUnrealCV:Warning: Receive message 193:vget /camera/0/location
+[2021.05.23-10.39.56:491][511]LogUnrealCV:Warning: Response: 2728.421 -17007.795 -10212.489
+[2021.05.23-10.39.56:492][512]LogUnrealCV:Warning: Request: 194:vget /camera/0/rotation
+[2021.05.23-10.39.56:508][512]LogUnrealCV:Warning: Receive message 194:vget /camera/0/rotation
+[2021.05.23-10.39.56:509][512]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.56:509][513]LogUnrealCV:Warning: Request: 195:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.56:509][513]LogUnrealCV:Warning: Receive message 195:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.56:524][513]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.56:524][513]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.56:525][514]LogUnrealCV:Warning: Request: 196:vget /camera/0/lit png
+[2021.05.23-10.39.56:525][514]LogUnrealCV:Warning: Receive message 196:vget /camera/0/lit png
+[2021.05.23-10.39.56:578][514]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.56:967][540]LogUnrealCV:Warning: Request: 197:vget /camera/0/location
+[2021.05.23-10.39.56:967][540]LogUnrealCV:Warning: Receive message 197:vget /camera/0/location
+[2021.05.23-10.39.56:984][540]LogUnrealCV:Warning: Response: 2728.421 -17007.795 -10212.489
+[2021.05.23-10.39.57:000][541]LogUnrealCV:Warning: Request: 198:vget /camera/0/rotation
+[2021.05.23-10.39.57:000][541]LogUnrealCV:Warning: Receive message 198:vget /camera/0/rotation
+[2021.05.23-10.39.57:000][541]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.57:017][542]LogUnrealCV:Warning: Request: 199:vset /camera/0/location 2728.421 -16907.795 -10212.489
+[2021.05.23-10.39.57:017][542]LogUnrealCV:Warning: Receive message 199:vset /camera/0/location 2728.421 -16907.795 -10212.489
+[2021.05.23-10.39.57:017][542]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.57:017][543]LogUnrealCV:Warning: Request: 200:vget /camera/0/location
+[2021.05.23-10.39.57:017][543]LogUnrealCV:Warning: Receive message 200:vget /camera/0/location
+[2021.05.23-10.39.57:033][543]LogUnrealCV:Warning: Response: 2728.421 -16907.795 -10212.489
+[2021.05.23-10.39.57:048][544]LogUnrealCV:Warning: Request: 201:vget /camera/0/rotation
+[2021.05.23-10.39.57:048][544]LogUnrealCV:Warning: Receive message 201:vget /camera/0/rotation
+[2021.05.23-10.39.57:048][544]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.57:049][545]LogUnrealCV:Warning: Request: 202:vget /camera/0/location
+[2021.05.23-10.39.57:066][545]LogUnrealCV:Warning: Receive message 202:vget /camera/0/location
+[2021.05.23-10.39.57:066][545]LogUnrealCV:Warning: Response: 2728.421 -16907.795 -10212.489
+[2021.05.23-10.39.57:081][546]LogUnrealCV:Warning: Request: 203:vget /camera/0/rotation
+[2021.05.23-10.39.57:081][546]LogUnrealCV:Warning: Receive message 203:vget /camera/0/rotation
+[2021.05.23-10.39.57:081][546]LogUnrealCV:Warning: Response: 270.100 286.000 89.900
+[2021.05.23-10.39.57:081][547]LogUnrealCV:Warning: Request: 204:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.57:081][547]LogUnrealCV:Warning: Receive message 204:vset /camera/0/horizontal_fieldofview 90
+[2021.05.23-10.39.57:097][547]LogUnrealCV:Warning: Setting field of view to: 90.000000
+[2021.05.23-10.39.57:097][547]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.57:097][548]LogUnrealCV:Warning: Request: 205:vget /camera/0/lit png
+[2021.05.23-10.39.57:097][548]LogUnrealCV:Warning: Receive message 205:vget /camera/0/lit png
+[2021.05.23-10.39.57:146][548]LogUnrealCV:Warning: Response: ok
+[2021.05.23-10.39.58:751][649]LogUnrealCV: The connection is gracefully closed by the client.
+[2021.05.23-10.39.58:751][649]LogUnrealCV: Client disconnected.

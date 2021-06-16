@@ -1,0 +1,7 @@
+README.md
+setup.py
+real_lsd.egg-info/PKG-INFO
+real_lsd.egg-info/SOURCES.txt
+real_lsd.egg-info/dependency_links.txt
+real_lsd.egg-info/requires.txt
+real_lsd.egg-info/top_level.txt

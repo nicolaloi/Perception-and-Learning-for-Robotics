@@ -1,0 +1,660 @@
+﻿Log file open, 05/23/21 10:12:10
+LogPlatformFile: Using cached read wrapper
+LogInit:Display: RandInit(-154537837) SRandInit(-154537837).
+LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089687
+LogFileManager:Warning: ReadFile failed: Count=0 Length=4096 Error=errno=21 (Is a directory) for file 
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit: Build: ++UE4+Release-4.16-CL-0
+LogInit: Engine Version: 4.16.3-0+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-0+++UE4+Release-4.16
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Apr 27 2021 12:29:45
+LogInit: Compiled with Clang: 3.9.1 (tags/RELEASE_391/rc2)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: /home/nicloi/app/gorner_shade/Test_airsim/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2021.05.23-10.12.10:852][  0]LogInit: Initializing SDL.
+[2021.05.23-10.12.10:852][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2021.05.23-10.12.10:899][  0]LogInit: Initialized SDL 2.0.4 revision: 10374 (hg-10374:dccf51aee79b with EpicExtensions) (compiled against 2.0.4)
+[2021.05.23-10.12.10:899][  0]LogInit: Display metrics:
+[2021.05.23-10.12.10:899][  0]LogInit:   PrimaryDisplayWidth: 1024
+[2021.05.23-10.12.10:899][  0]LogInit:   PrimaryDisplayHeight: 768
+[2021.05.23-10.12.10:899][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2021.05.23-10.12.10:899][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.05.23-10.12.10:899][  0]LogInit:   VirtualDisplayRect:
+[2021.05.23-10.12.10:899][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.05.23-10.12.10:899][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2021.05.23-10.12.10:899][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2021.05.23-10.12.10:899][  0]LogInit:   Number of monitors: 1
+[2021.05.23-10.12.10:899][  0]LogInit:     Monitor 0
+[2021.05.23-10.12.10:899][  0]LogInit:       Name: 0
+[2021.05.23-10.12.10:899][  0]LogInit:       ID: display0
+[2021.05.23-10.12.10:899][  0]LogInit:       NativeWidth: 1024
+[2021.05.23-10.12.10:899][  0]LogInit:       NativeHeight: 768
+[2021.05.23-10.12.10:899][  0]LogInit:       bIsPrimary: true
+[2021.05.23-10.12.10:900][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.05.23-10.12.10:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [LinuxNoEditor]
+[2021.05.23-10.12.10:909][  0]LogInit: Linux hardware info:
+[2021.05.23-10.12.10:909][  0]LogInit:  - we are not the first instance of this executable
+[2021.05.23-10.12.10:909][  0]LogInit:  - this process' id (pid) is 7148, parent process' id (ppid) is 7134
+[2021.05.23-10.12.10:909][  0]LogInit:  - we are not running under debugger
+[2021.05.23-10.12.10:909][  0]LogInit:  - machine network name is 'gpu_node'
+[2021.05.23-10.12.10:909][  0]LogInit:  - user name is 'nicloi' (nicloi)
+[2021.05.23-10.12.10:909][  0]LogInit:  - we're logged in remotely
+[2021.05.23-10.12.10:909][  0]LogInit:  - we're running with rendering
+[2021.05.23-10.12.10:909][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 7 3700X 8-Core Processor             ' (signature: 0x870F10)
+[2021.05.23-10.12.10:909][  0]LogInit:  - Number of physical cores available for the process: 8
+[2021.05.23-10.12.10:909][  0]LogInit:  - Number of logical cores available for the process: 16
+[2021.05.23-10.12.10:909][  0]LogInit:  - Cache line size: 64
+[2021.05.23-10.12.10:909][  0]LogInit:  - Memory allocator used: binned2
+[2021.05.23-10.12.10:909][  0]LogLinux: Benchmarking clocks:
+[2021.05.23-10.12.10:909][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 42331123 (42331K, 42M) calls per second without zero deltas.
+[2021.05.23-10.12.10:909][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 43652293 (43652K, 44M) calls per second without zero deltas.
+[2021.05.23-10.12.10:909][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 43461502 (43462K, 43M) calls per second without zero deltas.
+[2021.05.23-10.12.10:910][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 215472045 (215472K, 215M) calls per second with 99.999880% zero deltas.
+[2021.05.23-10.12.10:910][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2021.05.23-10.12.10:910][  0]LogInit: Linux-specific commandline switches:
+[2021.05.23-10.12.10:910][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2021.05.23-10.12.10:910][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.05.23-10.12.10:910][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.05.23-10.12.10:910][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.05.23-10.12.10:910][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.05.23-10.12.10:910][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.05.23-10.12.10:910][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.05.23-10.12.10:910][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16000 MB, 16384904 KB, 16778141696 bytes)
+[2021.05.23-10.12.10:916][  0]LogInit: Using OS detected language (en-US-POSIX).
+[2021.05.23-10.12.10:916][  0]LogInit: Using OS detected locale (en-US-POSIX).
+[2021.05.23-10.12.10:917][  0]LogTextLocalizationManager: No specific localization for 'en-US-POSIX' exists, so the 'en' localization will be used.
+[2021.05.23-10.12.10:963][  0]LogRHI: Initializing OpenGL RHI
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_RENDERER: TITAN Xp/PCIe/SSE2
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 450.119.03
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2021.05.23-10.12.10:963][  0]LogRHI: OpenGL Extensions:
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_base_instance
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_bindless_texture
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_blend_func_extended
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_buffer_storage
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_clear_texture
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_clip_control
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_color_buffer_float
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_conservative_depth
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_compute_shader
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_copy_buffer
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_copy_image
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_cull_distance
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_debug_output
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_depth_clamp
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_depth_texture
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_derivative_control
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_direct_state_access
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_draw_buffers
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_draw_indirect
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_draw_instanced
+[2021.05.23-10.12.10:963][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_fragment_program
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_fragment_shader
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_framebuffer_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_geometry_shader4
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_get_program_binary
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_gl_spirv
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_gpu_shader5
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_half_float_pixel
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_half_float_vertex
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_imaging
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_indirect_parameters
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_instanced_arrays
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_internalformat_query
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_internalformat_query2
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_map_buffer_range
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_multi_bind
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_multisample
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_multitexture
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_occlusion_query
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_occlusion_query2
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_point_parameters
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_point_sprite
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_program_interface_query
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_provoking_vertex
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_query_buffer_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_robustness
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sample_locations
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sample_shading
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sampler_objects
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_ballot
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_clock
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_group_vote
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_image_size
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_objects
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_precision
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_subroutine
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shading_language_100
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shading_language_include
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shading_language_packing
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_shadow
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sparse_buffer
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sparse_texture
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sparse_texture2
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_spirv_extensions
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_stencil_texturing
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_sync
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_tessellation_shader
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_barrier
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_compression
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_cube_map
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_env_add
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_env_combine
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_float
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_gather
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_multisample
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_query_levels
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_query_lod
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_rectangle
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_rg
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_stencil8
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_storage
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_swizzle
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_texture_view
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_timer_query
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_transform_feedback2
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_transform_feedback3
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_transpose_matrix
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_vertex_array_object
+[2021.05.23-10.12.10:964][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_vertex_program
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_vertex_shader
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_viewport_array
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ARB_window_pos
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ATI_draw_buffers
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ATI_texture_float
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_S3_s3tc
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_env_add
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_abgr
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_bgra
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_bindable_uniform
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_blend_color
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_blend_func_separate
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_blend_minmax
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_blend_subtract
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_Cg_shader
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_direct_state_access
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_draw_buffers2
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_draw_instanced
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_draw_range_elements
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_EGL_image_storage
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_fog_coord
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_framebuffer_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_geometry_shader4
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_gpu_shader4
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_multiview_texture_multisample
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_multiview_timer_query
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_packed_float
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_packed_pixels
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_point_parameters
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_provoking_vertex
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_raster_multisample
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_rescale_normal
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_secondary_color
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_separate_specular_color
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_shadow_funcs
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_sparse_texture2
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_stencil_two_side
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_stencil_wrap
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture3D
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_array
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_cube_map
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_env_combine
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_integer
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_lod
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_shadow_lod
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_sRGB
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_sRGB_R8
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_storage
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_texture_swizzle
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_timer_query
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_transform_feedback2
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_vertex_array
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_window_rectangles
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_import_sync_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_context_flush_control
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_debug
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_memory_object
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_memory_object_fd
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_no_error
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_robustness
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_semaphore
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_EXT_semaphore_fd
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KHR_shader_subgroup
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_KTX_buffer_region
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_bindless_texture
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_blend_square
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_command_list
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_compute_program5
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_conditional_render
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_conservative_raster
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_copy_image
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_depth_buffer_float
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_depth_clamp
+[2021.05.23-10.12.10:965][  0]LogRHI:   GL_NV_draw_texture
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_explicit_multisample
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_feature_query
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fence
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fill_rectangle
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_float_buffer
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fog_distance
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fragment_program
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fragment_program_option
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fragment_program2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_geometry_shader4
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_program4
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_program4_1
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_program5
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_shader5
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_half_float
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_light_max_exponent
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_memory_attachment
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_multisample_coverage
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_occlusion_query
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_path_rendering
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_point_sprite
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_primitive_restart
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_query_resource
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_query_resource_tag
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_register_combiners
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_register_combiners2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_sample_locations
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_atomic_float
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_buffer_load
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_subgroup_partitioned
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texgen_reflection
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_barrier
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_env_combine4
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_multisample
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_rectangle
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_shader
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_shader2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_texture_shader3
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_transform_feedback
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_transform_feedback2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_program
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_program1_1
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_program2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_program2_option
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_vertex_program3
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_viewport_array2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_viewport_swizzle
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NVX_conditional_render
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_gpu_multicast
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NVX_progress_fence
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_thread_group
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_OVR_multiview
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_OVR_multiview2
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_SGIS_texture_lod
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_SGIX_depth_texture
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_SGIX_shadow
+[2021.05.23-10.12.10:966][  0]LogRHI:   GL_SUN_slice_accum
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2021.05.23-10.12.10:968][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2021.05.23-10.12.10:968][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2021.05.23-10.12.10:987][  0]LogRHI: Texture pool is 8601 MB (70% of 12288 MB)
+[2021.05.23-10.12.11:002][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2021.05.23-10.12.11:004][  0]LogSlate: Using Freetype 2.6.0
+[2021.05.23-10.12.11:005][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2021.05.23-10.12.11:005][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2021.05.23-10.12.11:101][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2021.05.23-10.12.11:167][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.004392 seconds
+[2021.05.23-10.12.11:167][  0]LogPakFile: New pak file ../../../Test_airsim/Content/Paks/Test_airsim-LinuxNoEditor.pak added to pak precacher.
+[2021.05.23-10.12.11:169][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.05.23-10.12.11:181][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2021.05.23-10.12.11:310][  0]LogNetVersion: Test_airsim , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3765968091)
+[2021.05.23-10.12.11:336][  0]LogUnrealCV:Warning: Can not recognize visualization mode 
+[2021.05.23-10.12.11:338][  0]LogMoviePlayer: Initializing movie player
+[2021.05.23-10.12.11:360][  0]LogUnrealCV:Warning: Loading config
+[2021.05.23-10.12.11:361][  0]LogUnrealCV:Warning: Port: 9010
+[2021.05.23-10.12.11:361][  0]LogUnrealCV:Warning: Width: 320
+[2021.05.23-10.12.11:361][  0]LogUnrealCV:Warning: Height: 240
+[2021.05.23-10.12.11:361][  0]LogUnrealCV:Warning: FOV: 90.000000
+[2021.05.23-10.12.11:361][  0]LogUnrealCV:Warning: EnableInput: true
+[2021.05.23-10.12.11:361][  0]LogUnrealCV:Warning: EnableRightEye: false
+[2021.05.23-10.12.11:362][  0]LogUnrealCV:Warning: The UriTemplate vrun ([^ ]*)[ ]*$ already exist, overwrited.
+[2021.05.23-10.12.11:362][  0]LogUnrealCV:Warning: Start listening on 9010
+[2021.05.23-10.12.11:363][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.23-10.12.11:368][  0]LogUObjectArray: 29581 objects as part of root set at end of initial load.
+[2021.05.23-10.12.11:368][  0]LogUObjectAllocator: 5790176 out of 0 bytes used by permanent object pool.
+[2021.05.23-10.12.11:368][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.23-10.12.11:368][  0]LogEngine: Initializing Engine...
+[2021.05.23-10.12.11:368][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.23-10.12.11:369][  0]LogStreaming:Error: Couldn't find file for package /Script/Engine requested by async loading code. NameToLoad: /Script/Engine
+[2021.05.23-10.12.11:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.05.23-10.12.11:656][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.05.23-10.12.11:671][  0]LogALAudio: ALAudio device opened : OpenAL Soft
+[2021.05.23-10.12.11:672][  0]LogALAudio: AL_VENDOR      : OpenAL Community
+[2021.05.23-10.12.11:672][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2021.05.23-10.12.11:672][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2021.05.23-10.12.11:672][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2021.05.23-10.12.11:672][  0]LogInit: FAudioDevice initialized.
+[2021.05.23-10.12.11:673][  0]LogInit: Texture streaming: Enabled
+[2021.05.23-10.12.11:706][  0]LogInit:Display: Game Engine Initialized.
+[2021.05.23-10.12.11:706][  0]LogInit:Display: Starting Game.
+[2021.05.23-10.12.11:706][  0]LogNet: Browse: /Game/Gorner_shade?Name=Player
+[2021.05.23-10.12.11:717][  0]LogLoad: LoadMap: /Game/Gorner_shade?Name=Player
+[2021.05.23-10.12.11:746][  0]LogMemory: Platform Memory Stats for LinuxNoEditor
+[2021.05.23-10.12.11:746][  0]LogMemory: Process Physical Memory: 419.98 MB used, 449.63 MB peak
+[2021.05.23-10.12.11:746][  0]LogMemory: Process Virtual Memory: 2344.79 MB used, 2413.99 MB peak
+[2021.05.23-10.12.11:746][  0]LogMemory: Physical Memory: 10463.89 MB used,  5537.00 MB free, 16000.88 MB total
+[2021.05.23-10.12.11:746][  0]LogMemory: Virtual Memory: 678.87 MB used,  5537.00 MB free, 2048.00 MB total
+[2021.05.23-10.12.11:746][  0]LogMemory: 
+[2021.05.23-10.12.11:746][  0]Allocator Stats for binned2: (not implemented)
+[2021.05.23-10.12.11:950][  0]LogAIModule: Creating AISystem for world Gorner_shade
+[2021.05.23-10.12.11:950][  0]LogLoad: Game class is 'UE4CVGameMode'
+[2021.05.23-10.12.11:952][  0]LogWorld: Bringing World /Game/Gorner_shade.Gorner_shade up for play (max tick rate 0) at 2021.05.23-10.12.11
+[2021.05.23-10.12.11:953][  0]LogWorld: Bringing up level for play took: 0.000736
+[2021.05.23-10.12.11:954][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.23-10.12.11:954][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.23-10.12.11:954][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.23-10.12.11:955][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.23-10.12.11:955][  0]LogLoad: Took 0.237592 seconds to LoadMap(/Game/Gorner_shade)
+[2021.05.23-10.12.11:978][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2021.05.23-10.12.11:984][  0]LogLoad: (Engine Initialization) Total time: 1.41 seconds
+[2021.05.23-10.12.11:984][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.05.23-10.12.12:000][  0]LogInit: Adding external input plugin.
+[2021.05.23-10.12.12:040][  2]LogRenderer: Reallocating scene render targets to support 1024x768 NumSamples 1 (Frame:1).
+[2021.05.23-10.12.18:622][398]LogLinux: FLinuxPlatformMisc::RequestExit(bForce=false, ReturnCode=130)
+[2021.05.23-10.12.18:622][398]LogLinux: FLinuxPlatformMisc::RequestExit(0)
+[2021.05.23-10.12.18:622][398]LogGenericPlatformMisc: FPlatformMisc::RequestExit(0)
+[2021.05.23-10.12.18:628][399]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2021.05.23-10.12.18:629][399]LogSlate: Request Window 'Test_airsim (64-bit, GLSL_430)' being destroyed
+[2021.05.23-10.12.18:662][399]LogSlate: Window 'Test_airsim (64-bit, GLSL_430)' being destroyed
+[2021.05.23-10.12.18:665][399]LogExit: Preparing to exit.
+[2021.05.23-10.12.18:665][399]LogMoviePlayer: Shutting down movie player
+[2021.05.23-10.12.18:733][399]LogExit: Game engine shut down
+[2021.05.23-10.12.18:759][399]LogObj: Freed 32b from 1 cluster array pools.
+[2021.05.23-10.12.18:759][399]LogExit: Object subsystem successfully closed.
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module AutomationController (142)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module AutomationWorker (140)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module AIModule (138)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module GameplayDebugger (137)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (134)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (132)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (130)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module Media (129)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module CharacterAI (126)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module SessionServices (124)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (122)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module MovieScene (120)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module GeometryCache (118)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module Niagara (116)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2021.05.23-10.12.18:786][399]LogModuleManager: Shutting down and abandoning module ProfilerService (110)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module SteamVRController (106)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module SteamVR (104)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (102)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (100)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (94)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module AndroidPermission (92)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module Test_airsim (88)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module PhysXVehicles (86)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (84)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (82)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module FacialAnimation (78)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (76)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module UnrealCV (72)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (70)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module MediaAssets (68)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (66)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module SlateReflector (62)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module Slate (60)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module Messaging (58)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (56)
+[2021.05.23-10.12.18:912][399]LogModuleManager: Shutting down and abandoning module ALAudio (54)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module Core (48)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module LevelSequence (46)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module AssetRegistry (44)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module ImageWrapper (42)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module OpenGLDrv (40)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module InputCore (38)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (36)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (34)
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (30)
+[2021.05.23-10.12.18:913][399]LogOnline:Display: Unloading online subsystem: NULL
+[2021.05.23-10.12.18:913][399]LogModuleManager: Shutting down and abandoning module HTTP (29)
+[2021.05.23-10.12.18:913][399]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.23-10.12.18:913][399]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00573E1F-0B05-0A17-000C-02B9F6D9C570%7D&AppID=UEGame.UnrealEngine.Release%7C173F84251F030B190033006028497AC9%7CUE4Game&AppVersion=4.16.3-0%2B%2B%2BUE4%2BRelease-4.16&UserID=ANON-%7B00364912-2004-0D1B-0033-003B2FA537F2%7D%7C%7C&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2021.05.23-10.12.18:913][399]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module SSL (28)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (24)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module ShaderCore (22)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module Landscape (20)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (18)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2021.05.23-10.12.19:442][399]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2021.05.23-10.12.19:443][399]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2021.05.23-10.12.19:443][399]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2021.05.23-10.12.19:443][399]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.05.23-10.12.19:443][399]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.05.23-10.12.19:443][399]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.05.23-10.12.19:443][399]LogSlate: HittestGrid destroyed
+[2021.05.23-10.12.19:443][399]LogSlate: HittestGrid destroyed
+[2021.05.23-10.12.19:443][399]LogExit: Exiting.
+[2021.05.23-10.12.19:443][399]LogInit: Tearing down SDL.
+[2021.05.23-10.12.19:445][399]Log file closed, 05/23/21 10:12:19

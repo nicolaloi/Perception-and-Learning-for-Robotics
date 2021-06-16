@@ -1,0 +1,6 @@
+Reading & Documentation:
+	DONE:
+		Unreal Engine basics		CHECK
+		unreal-gym env basics		CHECK
+		unrealCV basics					CHECK
+	TODO:

@@ -1,0 +1,6 @@
+PUT IN THIS FOLDER THE SIMULATION
+
+COMPILE THE UNREAL ENGINE PROJECT TO CREATE AN APPLICATION
+
+
+http://docs.unrealcv.org/en/master/plugin/package.html
