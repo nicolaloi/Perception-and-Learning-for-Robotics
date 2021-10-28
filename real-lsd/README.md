@@ -1,6 +1,6 @@
 ## Reinforcement learning for landing MAVs
 ***ReaL LSD***
-This repository was developed as a semester project at the Autonomous Systems Lab ETH Zurich. Extending on work done in gym-unrealcv, the repository was built to investigate the feasibility of deep reinforcement learning for solving the problem of landiing MAVs in emergency situations. A custom scene and MAV model were built in Unreal Engine which served as the environment and agent respectively. The agent was trained using Proximal Policy Optimization (PPO) and truncated Generalized Advantage Estimation (GAE).
+This repository was developed as a semester project at the Autonomous Systems Lab ETH Zurich by Nasib Naimi, and expanded by Nicola Loi and Valentin Ibars as a project for the course "Perception and Learning for Robotics". Extending on work done in gym-unrealcv, the repository was built to investigate the feasibility of deep reinforcement learning for solving the problem of landiing MAVs in emergency situations. A custom scene and MAV model were built in Unreal Engine which served as the environment and agent respectively. The agent was trained using Proximal Policy Optimization (PPO) and truncated Generalized Advantage Estimation (GAE).
 
 ### Setup
 
