@@ -41,10 +41,10 @@ Alternatively, you can test the UnrealCV python client by launching the `example
 
 ### Training and Testing PPO Agent
 
-The implementation of the PPO agent can be found under `agents/ppo_agent`, including the python executable that trains the agent and runs it through multiple episodes for testing. Run the following to train a new agent with PPO and test it in 50 episodes and specify the path to which the data collected throughout training should be stored.
+The implementation of the PPO agent can be found under `agents/ppo_agent`, including the python executable that trains the agent and runs it through multiple episodes for testing. Run the following to train a new agent with PPO and test it in 200 episodes and specify the path to which the data collected throughout training should be stored.
 
 ```
-python agents/ppo_agent/lander.py
+python agents/ppo_agent/PPO_lander.py
 ```
 
 ### Testing a trained agent
