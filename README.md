@@ -6,7 +6,7 @@ This exam project was developed during one semester to take advantage of deep re
   
 The paper of the project can be read in [Report.pdf](Report.pdf).  
   
-The project is based on the work done by Nasib Naimi in his semester thesis at the Autonomous Systems Lab ETH Zurich (his thesis is available in [real-lsd/Nasib report.pdf](real-lsd/Nasib_report.pdf)).
+The project is an expansion of the work done by Nasib Naimi in his semester thesis at the Autonomous Systems Lab ETH Zurich (his thesis is available in [real-lsd/Nasib report.pdf](real-lsd/Nasib_report.pdf)).
 
 <p align="center">
  <img height="200" src="https://user-images.githubusercontent.com/79461707/139410971-46d09793-d9d4-4b47-8ed0-f097390972e1.png"/>
